@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "ts-node": {
+    "esm": true
+  },
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "dist",
+    "moduleDetection": "force",
+    "strict": true,
+  }
+}
